@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {totalScreens, getScreenIndex} from "../../../utilities/commonUtils";
+import {getScreenIndex, totalScreens} from "../../../utilities/commonUtils";
 import ScrollService from "../../../utilities/ScrollService";
 import {faBars} from "@fortawesome/free-solid-svg-icons"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -63,7 +63,8 @@ export default function Header() {
                     <FontAwesomeIcon className={'header-hamburger-bars'} icon={faBars}/>
                 </div>
                 <div className={'header-logo'}>
-                    <span>Anh Mai</span>
+                    {/*<span>Anh Mai</span>*/}
+                    <div className={'header-logo-background'}></div>
                 </div>
                 <div className={
                     showHeaderOptions

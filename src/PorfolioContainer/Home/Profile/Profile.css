@@ -4,7 +4,7 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
-    /*background-image: url("../../assets/Home/bg.jpg");*/
+    background-image: url("../../../assets/Home/bg.jpg");
 }
 
 @media only screen and (max-width: 414px) {
@@ -183,22 +183,22 @@
     color: red;
 }
 
-.colz .colz-icon svg {
+.colz .colz-icon i {
     color: white;
     padding: 8px 8px 8px 0px;
 }
 
-.colz .colz-icon svg:hover {
+.colz .colz-icon i:hover {
     transform: scale(1.5);
 }
 
-/*@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .colz .colz-icon i {
         background-color: lightblue;
         padding: 0px;
         display: none;
     }
-}*/
+}
 
 @media only screen and (max-width: 800px) {
     .profile-role-tagline {

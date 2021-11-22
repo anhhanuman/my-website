@@ -4,6 +4,7 @@
     height: 149px;
     color: var(--white);
 }
+
 .header-parent {
     display: flex;
     align-items: center;
@@ -12,15 +13,31 @@
     width: 70%;
     color: var(--white);
 }
+
 .header-logo {
-    font-size: 50px;
-    font-family: "Poppins ExtraBold";
-    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
 }
+
+.header-logo-background {
+    height: 35%;
+    width: 35%;
+    border-radius: 50%;
+    background-image: url("../../../assets/Home/anhengineer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
 .header-options {
     display: flex;
     align-items: center;
 }
+
 .header-option {
     font-size: 16px;
     cursor: pointer;

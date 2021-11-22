@@ -1,8 +1,4 @@
 import React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
-import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import Typical from "react-typical";
 import "./Profile.css"
 
@@ -13,15 +9,16 @@ export default function Profile() {
                 <div className={'profile-details'}>
                     <div className={'colz'}>
                         <div className={'colz-icon'}>
-                            <a href={"https://linkedin.com"}>
-                                <FontAwesomeIcon icon={faLinkedin}/>
+                            <a href={"https://www.linkedin.com/in/anh-mai-mobile-automation-appium-ios-android-pom-24aba054/"}>
+                                <i className={'fa fa-linkedin-square'}/>
+                            </a>
+                            <a href={"https://github.com/anhhanuman"}>
+                                <i className={'fa fa-github-square'}/>
                             </a>
                             <a href={"https://facebook.com"}>
-                                <FontAwesomeIcon icon={faFacebookSquare}/>
+                                <i className={'fa fa-facebook-square'}/>
                             </a>
-                            <a href={"https://linkedin.com"}>
-                                <FontAwesomeIcon icon={faGithub}/>
-                            </a>
+
                         </div>
                     </div>
                     <div className={'profile-details-name'}>
